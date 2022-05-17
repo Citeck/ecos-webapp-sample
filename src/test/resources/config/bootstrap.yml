@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: sample
+  cloud:
+    config:
+      enabled: false
+  profiles:
+    active: test

@@ -1,0 +1,13 @@
+
+id: sample-type
+name:
+  ru: Тестовый тип
+  en: Test type
+
+sourceId: sample/
+
+model:
+  attributes:
+    - id: name
+    - id: amount
+      type: NUMBER
