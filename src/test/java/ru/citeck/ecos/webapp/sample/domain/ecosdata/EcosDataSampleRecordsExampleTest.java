@@ -1,8 +1,6 @@
 package ru.citeck.ecos.webapp.sample.domain.ecosdata;
 
 import lombok.Data;
-import net.bytebuddy.implementation.bytecode.Throw;
-import org.assertj.core.api.AbstractThrowableAssert;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
