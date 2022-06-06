@@ -10,13 +10,15 @@ import ru.citeck.ecos.webapp.lib.spring.EcosSpringApplication;
 @EnableDiscoveryClient
 @EnableJpaRepositories({"ru.citeck.ecos.webapp.sample.domain.*.repo"})
 public class EcosWebAppSample {
+
+    public static final String NAME = "sample";
+
     /**
      * Main method, used to run the application.
      *
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        //DefaultProfileUtil.addDefaultProfile(app);
         new EcosSpringApplication(EcosWebAppSample.class).run(args);
     }
 }

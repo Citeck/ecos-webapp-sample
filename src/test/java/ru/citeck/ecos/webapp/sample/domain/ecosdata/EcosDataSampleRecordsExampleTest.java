@@ -13,11 +13,12 @@ import ru.citeck.ecos.records3.RecordsService;
 import ru.citeck.ecos.records3.record.dao.query.dto.query.RecordsQuery;
 import ru.citeck.ecos.records3.record.dao.query.dto.res.RecsQueryRes;
 import ru.citeck.ecos.webapp.lib.spring.test.extension.EcosSpringExtension;
+import ru.citeck.ecos.webapp.sample.EcosWebAppSample;
 
 import static org.assertj.core.api.AssertionsForClassTypes.assertThat;
 import static org.assertj.core.api.AssertionsForClassTypes.assertThatThrownBy;
 
-@SpringBootTest
+@SpringBootTest(classes = { EcosWebAppSample.class })
 @ExtendWith(EcosSpringExtension.class)
 public class EcosDataSampleRecordsExampleTest {
 
