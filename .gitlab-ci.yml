@@ -19,6 +19,5 @@ mirror:
     - chmod -R go-rwx ~/.ssh
     - git remote add mirror $TARGET_REPO
     - git remote show mirror
-    - git fetch --unshallow origin
     - git checkout main
     - git push -f --progress mirror HEAD:main
