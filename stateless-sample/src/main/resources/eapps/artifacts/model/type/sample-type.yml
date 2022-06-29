@@ -29,6 +29,4 @@ model:
       name:
         ru: Валюта
         en: Currency
-      type: ASSOC
-      config:
-        typeRef: emodel/type@currency
+      type: TEXT
