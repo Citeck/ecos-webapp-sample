@@ -1,4 +1,4 @@
-package ru.citeck.ecos.webapp.sample.simple;
+package ru.citeck.ecos.webapp.sample.stateless;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.client.discovery.EnableDiscoveryClient;

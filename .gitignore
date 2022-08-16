@@ -74,6 +74,8 @@ out/
 ######################
 /log/
 /target/
+/*/target/
+.flattened-pom.xml
 
 ######################
 # Gradle
