@@ -10,7 +10,7 @@
     <parent>
         <groupId>ru.citeck.ecos.webapp</groupId>
         <artifactId>ecos-webapp-spring-simple-parent</artifactId>
-        <version>1.7.0</version>
+        <version>1.7.2</version>
         <relativePath/>
     </parent>
 
